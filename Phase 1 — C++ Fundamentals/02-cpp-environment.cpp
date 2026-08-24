@@ -123,23 +123,23 @@ program.exe
 // 9. Complete C++ Build Flow
 
 /*
-C++ Source Code
-      ↓
-Preprocessor
-      ↓
-Expanded Source Code
-      ↓
-Compiler
-      ↓
-Assembly Code
-      ↓
-Assembler
-      ↓
-Object Code
-      ↓
-Linker
-      ↓
-Executable File
-      ↓
-Run Program
+      C++ Source Code
+            ↓
+      Preprocessor
+            ↓
+      Expanded Source Code
+            ↓
+      Compiler
+            ↓
+      Assembly Code
+            ↓
+      Assembler
+            ↓
+      Object Code
+            ↓
+      Linker
+            ↓
+      Executable File
+            ↓
+      Run Program
 */
