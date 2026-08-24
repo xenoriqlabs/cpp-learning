@@ -30,8 +30,10 @@ int main()
     cout << "World" << endl;
 
     // 6. \n — New Line
-    
+
     cout << "Line 1\n";
     cout << "Line 2\n";
     cout << "Line 3\n";
+
+    return 0;
 }
