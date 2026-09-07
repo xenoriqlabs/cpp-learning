@@ -12,6 +12,7 @@ int main()
     // 3. C-style Casting
     // 4. static_cast
 
+
     // ==========================================
     // 1. IMPLICIT CONVERSION
     // ==========================================
@@ -24,6 +25,7 @@ int main()
     cout << "int: " << number << endl;
     cout << "double: " << decimalNumber << endl;
 
+
     // ==========================================
     // 2. EXPLICIT CONVERSION
     // ==========================================
@@ -33,8 +35,9 @@ int main()
     int wholePrice = static_cast<int>(price);
 
     cout << "\n2. Explicit Conversion" << endl;
-    cout << "Original double: " << price << endl;
-    cout << "Converted int: " << wholePrice << endl;
+    cout << "Original: " << price << endl;
+    cout << "Converted: " << wholePrice << endl;
+
 
     // ==========================================
     // 3. C-STYLE CASTING
@@ -44,9 +47,10 @@ int main()
     double temperature = 36.8;
     int integerTemperature = (int)temperature;
 
-    cout << "\n3. C-style Casting old-style" << endl;
-    cout << "Original double: " << temperature << endl;
-    cout << "Converted int: " << integerTemperature << endl;
+    cout << "\n3. C-style Casting" << endl;
+    cout << "Original: " << temperature << endl;
+    cout << "Converted: " << integerTemperature << endl;
+
 
     // ==========================================
     // 4. static_cast
@@ -56,9 +60,10 @@ int main()
     double marks = 87.75;
     int integerMarks = static_cast<int>(marks);
 
-    cout << "\n4. static_cast modern C++ casting syntax" << endl;
-    cout << "Original double: " << marks << endl;
-    cout << "Converted int: " << integerMarks << endl;
+    cout << "\n4. static_cast" << endl;
+    cout << "Original: " << marks << endl;
+    cout << "Converted: " << integerMarks << endl;
+
 
     // ==========================================
     // IMPORTANT: INTEGER DIVISION
@@ -74,6 +79,7 @@ int main()
     cout << "\nInteger Division" << endl;
     cout << "Without casting: " << result1 << endl;
     cout << "With static_cast: " << result2 << endl;
+
 
     return 0;
 }
