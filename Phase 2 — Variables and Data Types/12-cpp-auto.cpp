@@ -1,13 +1,12 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main()
 {
+
     // ==========================================
     // C++ AUTO & TYPE DEDUCTION
     // ==========================================
-
 
     // ==========================================
     // 1. auto
@@ -26,17 +25,16 @@ int main()
     cout << "name: " << name << endl;
     cout << "isStudent: " << isStudent << endl;
 
-
     // ==========================================
     // 2. TYPE DEDUCTION
     // ==========================================
     // The compiler looks at the value and
     // deduces its type.
 
-    auto number = 100;        // int
-    auto decimal = 10.5;      // double
-    auto letter = 'A';        // char
-    auto status = true;       // bool
+    auto number = 100;   // int
+    auto decimal = 10.5; // double
+    auto letter = 'A';   // char
+    auto status = true;  // bool
 
     cout << "\nTYPE DEDUCTION" << endl;
 
@@ -44,7 +42,6 @@ int main()
     cout << "decimal: " << decimal << endl;
     cout << "letter: " << letter << endl;
     cout << "status: " << status << endl;
-
 
     // ==========================================
     // CHECKING THE DEDUCED TYPE
@@ -56,7 +53,6 @@ int main()
     cout << "decimal: " << typeid(decimal).name() << endl;
     cout << "letter: " << typeid(letter).name() << endl;
     cout << "status: " << typeid(status).name() << endl;
-
 
     // ==========================================
     // 3. auto WITH EXPRESSIONS
@@ -73,7 +69,6 @@ int main()
     cout << "sum: " << sum << endl;
     cout << "multiplication: " << multiplication << endl;
 
-
     // ==========================================
     // 4. auto WITH CALCULATIONS
     // ==========================================
@@ -86,7 +81,7 @@ int main()
     cout << "\nAUTO WITH CALCULATION" << endl;
 
     cout << "result: " << result << endl;
-
+    cout << "result type: " << typeid(result).name() << endl;
 
     return 0;
 }
