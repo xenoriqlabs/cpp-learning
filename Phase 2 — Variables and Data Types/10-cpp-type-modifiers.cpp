@@ -1,3 +1,11 @@
+/*
+Modifier	    Meaning
+short	    Smaller integer type / smaller range
+long	    Larger integer type / potentially larger range
+signed	    Can store negative and positive values
+unsigned	Can store only 0 and positive values
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -15,6 +23,7 @@ int main()
     // ------------------------------------------
     // 1. short
     // ------------------------------------------
+
     short age = 25;
 
     cout << "short age: " << age << endl;
@@ -22,6 +31,7 @@ int main()
     // ------------------------------------------
     // 2. long
     // ------------------------------------------
+
     long population = 250000000;
 
     cout << "long population: " << population << endl;
@@ -67,12 +77,13 @@ int main()
     // Checking Size
     // ------------------------------------------
 
-    cout << "\nSize of Data Types:" << endl;
+    cout << "\nSize of Data Types: " << endl;
 
-    cout << "short: " << sizeof(short) << "bytes" << endl;
-    cout << "int: " << sizeof(int) << " bytes" << endl;
+    cout << "short: " << sizeof(short) << " bytes" << endl;
+    cout << "int: " << sizeof(int) << "bytes" << endl;
     cout << "long: " << sizeof(long) << " bytes" << endl;
     cout << "unsigned int: " << sizeof(unsigned int) << " bytes" << endl;
 
-    return 0;
+
+    return 0
 }
