@@ -44,4 +44,32 @@ int main()
 
     cout << "\na ^ b = " << resultOR << endl;
     cout << "Binary: " << bitset<8>(resultXOR) << endl;
+
+    // ========================================
+    // 4. Bitwise NOT (~)
+    // ========================================
+
+    int resultNOT = ~a;
+
+    cout << "\n~a = " << resultNOT << endl;
+
+    // ========================================
+    // 5. Left Shift (<<)
+    // ========================================
+
+    int resultLeftShift = a << 1;
+
+    cout << "\na << 1 = " << resultLeftShift << endl;
+    cout << "Binary: " << bitset<8>(resultLeftShift) << endl;
+
+    // ========================================
+    // 6. Right Shift (>>)
+    // ========================================
+
+    int resultRightShift = a >> 1;
+
+    cout << "\na >> 1 = " << resultRightShift << endl;
+    cout << "Binary: " << bitset<8>(resultRightShift) << endl;
+
+    return 0;
 }
