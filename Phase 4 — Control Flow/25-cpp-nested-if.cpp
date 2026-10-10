@@ -8,6 +8,13 @@ int main(){
     bool feePaid = true;
 
     if (isRegister){
-        
+        cout << "Student registration verified." << endl;
+
+        if (feePaid){
+            cout << "Exam fee verified." << endl;
+            cout << "You are eligible to take the exam." << endl;
+        }
     }
+
+    
 }
